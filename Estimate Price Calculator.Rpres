@@ -1,0 +1,102 @@
+
+House Price Estimate Calculator
+========================================================
+date: June 22, 2020
+author: 
+- Dilraj Deep Sigh Chahil A/L Gurdarshan Singh (17218944)
+- Ikmal Syafiq Bin Mahadi (17221651) 
+- Syed Johan Arif Bin Syed Mohamad Fauzi (17219380)
+- Mohammad Rusdi Bin Noordin (17217779)
+
+Group B
+
+
+Introduction
+========================================================
+title: FALSE
+right: 70%
+
+<style>
+/* slide titles */
+.reveal h3 { 
+  font-size: 40px;
+  color: green;
+}
+</style>
+### Background
+- <small>The purpose of the shiny app is to display house price estimate calculator based on features selected by the user 
+- Type of Data Analytics used: Predictive Analysis
+
+</small>
+
+***
+
+### Project Questions
+- <small>What is the estimate price for 2 storey house with paved drive?
+- What is the effect of garrage type toward house price?
+- What is the highest price, lowest price and median price sold in 2010? </small>
+
+### Objectives
+- <small>To develop Shiny application on house price estimate calculator.
+- To provide estimate house price based on user preferences such as 2 storey, year build, number of bedroom...etc. </small>
+
+Data Description & Preprocessing
+========================================================
+title: FALSE
+right: 70%
+
+<style>
+/* heading for slides with two hashes ## */
+.reveal .slides section .slideContent h2 {
+   font-size: 40px;
+   font-weight: bold;
+   color: green;
+</style>
+## Data Description 
+
+- <small>Data Source: Kaggle.com (House price Iowa dataset)
+- Raw data consisted of 1,460 observations and 58 variables 
+- After Cleansing: 1,460 observations and 27 variables
+</small>
+
+***
+
+## Data Preprocessing
+
+- <small>Initially, the raw data consist of too many variables and will be tough for us to find the correlation of each variable to house price.
+- Hence, we decided to choose 27 most correlate variables in this project. 
+- Data cleansing:
+   - Remove variables with incomplete data (too many null value ie Fence) - avoid bias to our model
+   - Insignificant feature to our analysis ie GarageQual
+- Data correlation - to identify features correlation 
+- Data aggregation - summary of variables
+- Standardizing categories - ie Attchd to Attached, slv1 to Split Level
+
+
+</small>
+
+Conclusion
+===========================================================================================
+**CHALLENGES**    |   **SOLUTIONS**
+------------------|-------------------------------------------------------------
+- <big>Too many variables in original dataset|  We need to understand all variable before decide to remove some variable
+- To do a prediction is quite tough for us since this is our first experince in R programming   | Do more research, do a lot of practices and refer to the similar case study
+- Limited face to face discussion during implementataion of Movement Control Order (MRO)due to Covid 19 | Communicate through whatsapp group and dropbox to update each other.
+
+***
+
+### Preview of our Shiny Apps
+![map](mainpage.png)
+
+
+========================================================
+
+- Dataset: 
+    - [Our Iowa House Price Dataset] (https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data?select=train.csv)
+- Shiny Apps: [View our Shiny Apps](https://syedjohanarif.shinyapps.io/WQD7001_GroupB/)
+- Github: [Get our code here](https://github.com/MohammadRusdi/House-Price-Estimate-Calculator)
+
+
+
+
+
